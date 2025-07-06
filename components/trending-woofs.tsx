@@ -23,7 +23,6 @@ export const TrendingWoofs = () => {
         )}
         horizontal
         showsHorizontalScrollIndicator={false}
-        ListFooterComponent={<View style={{ width: 16 }} />} // Add spacing at the
       />
     </View>
   );
