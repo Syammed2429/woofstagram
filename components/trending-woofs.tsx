@@ -10,7 +10,7 @@ export const TrendingWoofs = () => {
         data={mockData?.woofs}
         keyExtractor={(woof) => woof.id.toString()}
         renderItem={({ item: woof }) => (
-          <View className='items-center gap-5 p-4 me-4 justify-center bg-white rounded-2xl shadow-2xl h-40 border border-[#e5e7eb] dark:bg-gray-800 dark:border-gray-700'>
+          <View className='items-center gap-5 p-4 me-4 justify-center bg-white rounded-2xl shadow-2xl h-40 border border-[#e5e7eb] '>
             <Image
               source={{ uri: woof.avatar }}
               alt={woof.name}
