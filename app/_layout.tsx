@@ -27,6 +27,7 @@ export default function RootLayout() {
         name='index'
         options={{
           title: "Woofstagram",
+          headerShown: false,
         }}
       />
     </Stack>
